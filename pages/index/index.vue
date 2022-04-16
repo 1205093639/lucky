@@ -3,7 +3,7 @@
         <u-modal :show="show" :content='content' @confirm="show=false"></u-modal>
         <u-popup :show="show2" @close="show2=false" mode="bottom" :round="10" :overlay="false">
             <div class="box">
-				<div class="tip">作者:吕小布</div>
+                <div class="tip">作者:吕小布</div>
                 <div class="bli" v-for='(e,i) in list' :key='i'>
                     <div class="label">
                         <u--input v-model="e.name" @change="save()"></u--input>
@@ -418,8 +418,8 @@ image.caidai {
         }
     }
 }
-.tip{
-	font-size: 12px;
-	margin-bottom: 5px;
+.tip {
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 </style>
